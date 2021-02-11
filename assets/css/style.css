@@ -1,0 +1,45 @@
+body {
+    
+    background: #d9dcd6;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Styling for header elements */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8f3b0a;
+    color: #d16c0d;
+    padding: 4px 40px 4px 0;
+}
+
+h1 {
+    font-size: 32px;
+    background: #c41616;
+    color: #d1550d;
+    padding: 4px 8px 4px 24px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+nav a {
+    color: #c41616;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 4px;
+    border-bottom: 4px solid #c41616;
+}
+
+/* Styling for figure and decorative background image */
+figure {
+    height: 320px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* Photo licensed under CC0 Public Domain, taken by Lynn Greyling */
+    background-image: url("../images/terracotta-roof-tiles.jpg");
+    background-size: cover;
+    background-position: center;
+}
