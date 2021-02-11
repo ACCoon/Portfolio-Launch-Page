@@ -13,5 +13,10 @@ Clicking on images in the My Work section will take you to the GitHub repository
 Links in the Contact Me section will provide you with quick and ready access to contact methods via phone, email and GitHub.
 
 ## Credits
-"Terracotta Roof Tiles" photo taken by Lynn Greyling, which is currently licensed under CC0 Public Domain and hosted on https://www.publicdomainpictures.net/
+Below is a list citations for images currently being used as placeholders. All images were sourced from https://www.publicdomainpictures.net/ and are under the CC0 Public Domain license.
 
+- "Terracotta Roof Tiles" photo taken by Lynn Greyling
+- "Sun" photo taken by Brunhilde Reinig
+- "Horseshoe Bend" photo taken by Ken Kistler
+- "Antelope Canyon, Arizona Near Page" by finepic Beat
+- "Sunset Over The Desert" by Yinan Chen

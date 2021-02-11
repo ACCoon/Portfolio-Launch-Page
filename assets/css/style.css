@@ -98,24 +98,30 @@ p {
     border: 4px solid var(--borderColor);
     height: 400px;
     min-width: 400px;
-    margin: 8px; 
+    margin: 8px;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Set background images for project card links */
 #projectOne {
-    background-image: url("../images/");
+    /* Photo licensed under CC0 Public Domain, taken by Brunhilde Reinig */
+    background-image: url("../images/sonne-44421290538258Oxe.jpg");
 }
 
-#projectOne {
-    background-image: url("../images/");
+#projectTwo {
+    /* Photo licensed under CC0 Public Domain, taken by Ken Kistler*/
+    background-image: url("../images/horseshoe-bend.jpg");
 }
 
-#projectOne {
-    background-image: url("../images/");
+#projectThree {
+    /* Photo licensed under CC0 Public Domain, taken by finepic Beat */
+    background-image: url("../images/antelope-canyon-arizona-near-page.jpg");
 }
 
-#projectOne {
-    background-image: url("../images/");
+#projectFour {
+    /* Photo licensed under CC0 Public Domain, taken by Yinan Chen */
+    background-image: url("../images/sunset-over-the-desert.jpg");
 }
 
 /* When links are hovered over, change their color */
