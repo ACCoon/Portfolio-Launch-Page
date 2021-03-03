@@ -6,6 +6,7 @@
         <title>Andrew Coon's Portfolio</title>
         <meta name="description" content="Andrew Coon's portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
@@ -14,7 +15,7 @@
        <header>
            <h1>Andrew Coon</h1>
            <!-- Nav for webpage -->
-           <nav>
+           <nav class="navbar navbar-expand-md">
                 <a href="#about">About Me</a>
                 <a href="#work">My Work</a>
                 <a href="#contact">Contact Me</a>
@@ -46,55 +47,70 @@
             <section class="row" id="work">
                 <h2>My Work</h2>
                 <article class="container">
-
-                    <a href="#">
-                        <section class="card" id="projectOne">
-                            <section>
-                                <h3>The Sun</h3>
-                                <p>Brunhilde Reinig</p>
-                            </section>
-                        </section>
-                    </a>
                     
-                    <a href="#">
-                        <section class="card" id="projectTwo">
-                            <section>
-                                <h3>Horseshoe Bend</h3>
-                                <p>Ken Kistler</p>
-                            </section>
-                        </section>
-                    </a>
+                    <!-- First project card -->
+                    <div class="col mb-4">
+                        <div class="card">
+                          <img src="./assets/images/dogglesite.png" class="card-img-top" alt="Doggle/Dog Finder preview">
+                          <div class="card-body">
+                            <h5 class="card-title">Doggle, the Dog Finder</h5>
+                            <p class="card-text">Click the image or click <a href="" target="_blank">here</a> to see the live deployment!</p>
+                            <p class="card-text">Or click <a href="" target="_blank">here</a> to go to the project on Github.</p>
+                          </div>
+                        </div>
+                    </div>
 
-                    <a href="#">
-                        <section class="card" id="projectThree">
-                            <section>
-                                <h3>Antelope Canyon</h3>
-                                <p>finepic Beat</p>
-                            </section>
-                        </section>
-                    </a>
-
-                    <a href="#">
-                        <section class="card" id="projectFour">
-                            <section>
-                                <h3>Desert Sunset</h3>
-                                <p>Yinan Chen</p>
-                            </section>
-                        </section>
-                    </a>
-        
-                </article>
-            </section>
-
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
             <!-- Contact Me section -->
             <section class="row" id="contact">
                 <h2>Contact Me</h2>
-                <nav>
+                <nav class="navbar navbar-expand-md">
                     <a href="tel:+17407077234">+1 (740) 707-7234</a>
                     <a href="mailto:thenran@gmail.com" target="_blank">thenran@gmail.com</a>
                     <a href="https://github.com/ACCoon" target="_blank">My GitHub</a>
+                    <a href="https://www.linkedin.com/in/andrew-coon-a745a411b/" target="_blank">LinkedIn</a>
                 </nav>
             </section>
        </main>
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
 </html>
